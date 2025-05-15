@@ -1,0 +1,39 @@
+
+
+{% extends 'my_restaurant/base.html' %}
+{% load static%}
+{% block title %}About Us | Asmarino Restaurant{% endblock %}
+
+{% block content %}
+
+<header class="bg-primary text-white text-center py-5">
+    
+    <h1>About Us</h1>
+    <p class="text-center"> Welcome to Asmarino Restaurant, where we serve the best flavors with love!</p>
+    
+</header>
+
+<section class="container d-flex flex-columns align-item-center my-5" >
+
+<p> Asmarino restaurant was founded in 2024 with the vision of bringing exceptional dining experiences to food enthusiasts.Our world-class team and staff work tirelessly to serve the finest dishes crafted with love and precision. </p>
+</div>
+<div class ="row mt-5 text-center">
+    <div class="col-md-4 team-member">
+        <h5> Johan Patersson</h5>
+        <p> Head Chef</p>
+        <img src="{% static 'images/chef.jpg'%}" alt="Johan Patersson">
+    </div>
+        <div class="col-md-4 team-member">
+            <h5>Ragnar Doe</h5>
+            <p>Restaurant Manager</p>
+            <img src="{% static 'images/chef_4_resized.png'%}" alt="Ragner Doe">
+        </div>
+        <div class="col-md-4 team-member">
+            <h5>Omer Omer</h5>
+            <p>Founder</p>
+            <img src="{% static 'images/Chef_3.jpg' %}" alt="Omer Omer">
+        </div>
+    </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,36 @@
+
+{% extends 'my_restaurant/base.html' %}
+{% load static%}
+{% block title %}Home | Asmarino Restaurant
+{% endblock %}
+{% block content %}
+<header class="bg-primary text-white text-center py-5">
+    <h1>Welcome to Asmarino Restaurant</h1>
+    <p>Experience the finest dining with us! Book your table online now.</p>
+    <a href="{% url 'booking' %}" class="btn btn-light mt-3">Book Now</a>
+</header>
+    <!-- Specials Section-->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Special Dishes</h2>
+    <div class="row g-4">
+        {% for special in specials %}
+        <div class="col-md-4">
+            <div class="card">
+            {% if special.image %}
+            <img src="{{ special.image.url }}" class="card-img-top" alt="{{ special.name }}">
+            {% else %}
+            <img src="{% static 'images/default-dish.jpg' %}" class="card-img-top" alt="Default Image">
+            {% endif %}
+            <div class="card-body">
+                <h5 class="card-title">{{ special.name }}</h5>
+                <p class="card-text">{{ special.description|truncatechars:100 }}</p>
+                <p class="fw-bold">${{ special.price }}</p>
+            </div>
+            </div>
+        </div>
+        {% empty %}
+        <p class="text-center">No special items available at the moment. Check back later!</p>
+        {% endfor %}
+    </div>
+    </section>
+{% endblock %}

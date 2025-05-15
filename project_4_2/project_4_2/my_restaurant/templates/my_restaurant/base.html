@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+{% load static %}
+{% url 'account_login' as login_url %}
+{% url 'account_signup' as signup_url %}
+{% url 'account_logout' as logout_url %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Asmarino Restaurant{% endblock %}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+<!-- Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container d-flex justify-content-between ">
+    <div class="d-flex align-items-center">
+        <a class="navbar-brand fw-bold" href="{% url 'home'%}">
+        <img src="{% static 'images/Logo.png' %}" alt="Asmarino Restaurant" class="logo mx-auto mb-3">
+        </a>
+    </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="{% url 'home' %}">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="{% url 'about_us' %}">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="{% url 'menu' %}">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="{% url 'booking' %}">Book a Table</a></li>
+                <li class="nav-item"><a class="nav-link" href="{% url 'contact_us' %}">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="{% url 'login' %}">Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Page Content -->
+<div class="container my-5">
+    {% block content %}
+    <!-- Page-specific content will go here -->
+    {% if user.is_authenticated %}
+    <li class="nav-item">
+        <a class="nav-link {% if request.path == logout_url %}active{% endif %}" aria-current="page" href="{% url 'account_logout' %}">Logout</a>
+    </li>
+    {% else %}
+    <li class="nav-item">
+        <a class="nav-link {% if request.path == signup_url %}active{% endif %}" aria-current="page"
+            href="{% url 'account_signup' %}">Register</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link {% if request.path == login_url %}active{% endif %}" aria-current="page" href="{% url 'account_login' %}">Login</a>
+    </li>
+    {% endif %}
+    {% endblock %}
+</div>
+<!-- Footer -->
+<footer class="bg-light text-center py-4">
+    <h4>Get in Touch</h4>
+    <p><strong>Phone:</strong> + 46 73 62 100 88</p>
+    <h5>Address</h5>
+    <p>Asmarino Restaurant,<br>Veronikgränd Street, Stockholm</p>
+    <div>
+        <a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a> |
+        <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a> |
+        <a href="https://www.twitter.com" target="_blank" rel="noopener">Twitter</a>
+    </div>
+    <p class="mt-3">&copy; 2025 Asmarino Restaurant. All Rights Reserved.</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</body>
+
