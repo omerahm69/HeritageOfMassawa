@@ -1,0 +1,475 @@
+/* common styling for all pages 
+ *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    }
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header style 
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+    background-image: url("../images/The-old-city-of-Massawa-in-Eritrea-05271413329F708F.webp");
+    filter:contrast(96%);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 2;
+    min-height: 70vh;
+    will-change: transform, opacity;
+}
+.header nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    height: auto;
+    padding:10px 20px;
+    margin-top: 20px;
+    text-align: right;
+    text-shadow: 2px 2px 4px hsla(300, 4%, 5%, 0.7);
+}
+.nav-toggle{
+    display:none;
+}
+.logo{
+    padding:0px 10px 10px 0px;
+}
+.log-link{
+    font-size:smaller;
+    padding:10px 10px
+}
+.logo p{
+    text-align: left;
+    font-size: small;
+    color: hsl(222, 23%, 91%);
+    text-shadow: 2px 2px 4px #dcd9d9e6;
+    margin-left: 50px;
+}
+.logo img{
+    height: 70px;
+    vertical-align: middle;
+}
+
+
+.language-selector {
+    position:absolute;
+    right: 60px;
+    top: 40px;
+    height: 70px;
+    vertical-align: middle;
+    margin-left: auto;
+}
+
+.language-selector select {
+    padding: 5px;
+    border-radius: 5px;
+    background: #444;
+    color: white;
+    border: none;
+    vertical-align: middle;
+    margin-top: 25px;
+    
+}
+
+
+.header h1 {
+    padding:10px 2px;
+    align-items:center;
+    margin-top:10px;
+    margin-bottom: 2px;
+    color: rgb(219, 219, 228);
+    color:white;
+    font-size: small;
+    width:100%;
+    display: inline-block;
+}
+nav ul{
+    list-style: none;
+    padding:0;
+    margin:auto;
+}
+.sitenav{
+    flex:1;
+    text-align: right;
+    float:right;
+    margin:auto;
+    min-height:auto;
+    margin-left: auto;
+    text-emphasis-color: rgb(142, 142, 220);
+}
+.sitenav ul li{
+    display:inline-block;
+    padding:8px 12px;
+    text-decoration: none;
+    font-size:larger;
+}
+.sitenav nav ul li a{
+
+    color:#444;
+    background-color: #91bfd0;
+    padding:10px;
+    border-radius: 5px;
+    display:inline-block;
+    padding:.5em 20px;
+    text-decoration: none;
+    font-weight:100;
+    font-size:small;
+    border:1px solid #858383;
+    border-radius:  0.5em;
+    background-color: rgb(132, 133, 187);
+    margin:0.25em;
+    list-style: none;
+    text-shadow: 2px 2px 4px rgba(122, 114, 114, 0.5);
+}
+a:link{color: rgb(50, 50, 201);}
+a:visited{color: white;}
+a:hover{color: rgb(15, 15, 205);}
+a:active{color: rgb(54, 68, 220);}
+/*End Header style 
+.main{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom : 5px;
+    background: rgb(213, 220, 235);
+
+}
+.content{
+    flex:1 1 45%;
+    order:2;
+    max-width: 46%;
+    background-color: aliceblue;
+    font-size: 14px;
+    padding:10px;
+    line-height: 1.5em;
+    list-style-position: inside;
+    margin-bottom: 20px;
+    line-height: 1.5rem;
+}
+.content img{
+    margin:10px;
+    max-width:100%;
+    height:auto;
+    
+}
+.aside1{
+    padding: 10px;
+    max-width:25%;
+    position:sticky;
+    flex:1 2 25%;
+    order:1;
+    background-color: rgb(158, 184, 206);
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 2px;
+    line-height: 1.5em;
+    list-style-position: inside;
+}
+.aside1 img, .aside2 img{
+    margin:10px auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.aside2{
+    padding:5px 10px;
+    max-width: 25%;
+    position: sticky;
+    flex:1 2 25%;
+    order:3;
+    background-color: rgb(194, 218, 237);
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 1.5em;
+    list-style-position: inside;
+    text-decoration:none;
+}
+.content, .aside1, .aside2 h2{
+    padding:0px 5px;
+}
+iframe{
+    display:block;
+    height: 400px;
+    width:100%;
+    margin-top: 15px;
+}
+.content .side1,.aside2 li span{
+    font-weight: bold;
+}
+p::first-letter{
+    font-size: 1.5rem;
+}
+.content,.side1, .side2 h1{
+    font-size: 2.5rem;
+}
+.content,.side1, .side2 h2{
+    font-size: 2rem;
+}
+.content,.side1, .side2 p {
+    font-size: 1rem;
+    margin-left: 2px;
+}
+fieldset{
+    border:none;
+    padding: 0;
+}
+label{ color:rgb(14, 14, 15);
+    padding:5px 10px;
+    margin-top: 10px;
+    display: flex;
+    font-weight: bold;
+}
+label input {
+    background-color: rgb(162, 173, 233);
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+button{
+    display: block;
+    padding: 10px;
+    background-color: #2c335c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #93959f;
+}
+
+footer .note a:hover {
+    text-decoration: underline;
+}*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    --background: 40 33% 98%;
+    --foreground: 30 10% 15%;
+
+    --card: 40 30% 96%;
+    --card-foreground: 30 10% 15%;
+
+    --popover: 40 33% 98%;
+    --popover-foreground: 30 10% 15%;
+
+    --primary: 30 60% 50%;
+    --primary-foreground: 40 33% 98%;
+
+    --secondary: 30 15% 25%;
+    --secondary-foreground: 40 33% 98%;
+
+    --muted: 35 20% 90%;
+    --muted-foreground: 30 10% 45%;
+
+    --accent: 38 80% 55%;
+    --accent-foreground: 30 10% 15%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 40 33% 98%;
+
+    --border: 35 25% 85%;
+    --input: 35 25% 85%;
+    --ring: 30 60% 50%;
+
+    --radius: 0.5rem;
+
+    /* Premium gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(30 60% 50%), hsl(38 80% 55%));
+    --gradient-hero: linear-gradient(135deg, hsl(30 60% 45%), hsl(38 85% 60%), hsl(30 60% 50%));
+    --gradient-text: linear-gradient(135deg, hsl(30 60% 40%), hsl(38 80% 50%));
+    --gradient-dark: linear-gradient(135deg, hsl(30 15% 20%), hsl(30 10% 15%));
+
+    /* Shadows */
+    --shadow-text: 0 4px 20px hsla(30, 60%, 20%, 0.3);
+    --shadow-glow: 0 0 40px hsla(38, 80%, 55%, 0.4);
+    --shadow-card: 0 10px 40px -10px hsla(30, 60%, 20%, 0.15);
+
+    --sidebar-background: 40 30% 96%;
+    --sidebar-foreground: 30 10% 25%;
+    --sidebar-primary: 30 60% 50%;
+    --sidebar-primary-foreground: 40 33% 98%;
+    --sidebar-accent: 35 25% 92%;
+    --sidebar-accent-foreground: 30 10% 15%;
+    --sidebar-border: 35 25% 85%;
+    --sidebar-ring: 30 60% 50%;
+  }
+
+  .dark {
+    --background: 30 15% 8%;
+    --foreground: 40 20% 95%;
+
+    --card: 30 15% 12%;
+    --card-foreground: 40 20% 95%;
+
+    --popover: 30 15% 10%;
+    --popover-foreground: 40 20% 95%;
+
+    --primary: 38 80% 55%;
+    --primary-foreground: 30 15% 8%;
+
+    --secondary: 30 20% 20%;
+    --secondary-foreground: 40 20% 95%;
+
+    --muted: 30 15% 18%;
+    --muted-foreground: 35 15% 60%;
+
+    --accent: 38 80% 55%;
+    --accent-foreground: 30 15% 8%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 40 20% 95%;
+
+    --border: 30 15% 20%;
+    --input: 30 15% 20%;
+    --ring: 38 80% 55%;
+
+    --sidebar-background: 30 15% 10%;
+    --sidebar-foreground: 40 20% 90%;
+    --sidebar-primary: 38 80% 55%;
+    --sidebar-primary-foreground: 30 15% 8%;
+    --sidebar-accent: 30 15% 15%;
+    --sidebar-accent-foreground: 40 20% 95%;
+    --sidebar-border: 30 15% 18%;
+    --sidebar-ring: 38 80% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-hero);
+  }
+
+  .gradient-underline {
+    @apply relative;
+  }
+
+  .gradient-underline::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-0.5 transition-all duration-300;
+    background: var(--gradient-primary);
+  }
+
+  .gradient-underline:hover::after {
+    @apply w-full;
+  }
+
+  .drop-cap::first-letter {
+    @apply float-left text-7xl font-serif font-bold leading-none mr-3 mt-1;
+    background: var(--gradient-hero);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-shadow-hero {
+    text-shadow: 0 4px 30px hsla(30, 60%, 20%, 0.4), 0 2px 10px hsla(30, 60%, 20%, 0.2);
+  }
+
+  .btn-premium {
+    @apply relative overflow-hidden transition-all duration-300;
+    background: var(--gradient-primary);
+  }
+
+  .btn-premium::before {
+    content: '';
+    @apply absolute inset-0 opacity-0 transition-opacity duration-300;
+    background: var(--gradient-hero);
+  }
+
+  .btn-premium:hover::before {
+    @apply opacity-100;
+  }
+
+  .card-hover {
+    @apply transition-all duration-500;
+    box-shadow: var(--shadow-card);
+  }
+
+  .card-hover:hover {
+    @apply -translate-y-2;
+    box-shadow: 0 20px 60px -15px hsla(30, 60%, 20%, 0.25);
+  }
+}
+
+@layer utilities {
+  .animate-fade-up {
+    animation: fadeUp 0.8s ease-out forwards;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.5s ease-out forwards;
+  }
+
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes scaleIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}
