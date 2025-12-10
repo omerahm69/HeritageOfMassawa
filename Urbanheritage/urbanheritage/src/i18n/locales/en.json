@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "massawa": "Heritage of Massawa",
+    "activities": "Our Activities",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Preserving Our",
+    "titleHighlight": "Urban Heritage",
+    "subtitle": "Discover the rich architectural and cultural legacy of Massawa, an ancient port city with centuries of history waiting to be explored.",
+    "exploreMassawa": "Explore Massawa",
+    "learnMore": "Learn More"
+  },
+  "mission": {
+    "title": "Our Mission",
+    "subtitle": "We are dedicated to preserving and promoting the cultural heritage of Massawa through documentation, education, and community involvement.",
+    "preservation": {
+      "title": "Historic Preservation",
+      "description": "Documenting and preserving the unique Ottoman and Italian colonial architecture of Massawa."
+    },
+    "community": {
+      "title": "Community Engagement",
+      "description": "Working with local communities to maintain cultural traditions and heritage awareness."
+    },
+    "education": {
+      "title": "Cultural Education",
+      "description": "Providing educational programs about the rich history of the Red Sea coastal region."
+    }
+  },
+  "cta": {
+    "title": "Join Us in Preserving History",
+    "subtitle": "Whether you're a researcher, history enthusiast, or simply curious about Massawa's heritage, we welcome you to explore and contribute.",
+    "getInvolved": "Get Involved"
+  },
+  "about": {
+    "title": "About Urban Heritage",
+    "subtitle": "We are a passionate team dedicated to preserving and celebrating the architectural and cultural heritage of Massawa and the greater Red Sea region.",
+    "storyTitle": "Our Story",
+    "storyP1": "Founded with a vision to protect and promote the rich cultural legacy of Massawa, Urban Heritage brings together historians, architects, and community advocates.",
+    "storyP2": "Massawa, often called the \"Pearl of the Red Sea,\" boasts a unique blend of Ottoman, Egyptian, and Italian colonial architecture dating back centuries. Our mission is to ensure these treasures are documented, preserved, and celebrated for generations to come.",
+    "storyP3": "Through partnerships with local communities, international organizations, and academic institutions, we work tirelessly to maintain the integrity of historic sites while promoting sustainable cultural tourism.",
+    "valuesTitle": "Our Core Values",
+    "values": {
+      "preservation": "Authentic preservation of historical sites",
+      "community": "Community-driven heritage initiatives",
+      "education": "Educational outreach programs",
+      "tourism": "Sustainable cultural tourism",
+      "collaboration": "International collaboration",
+      "documentation": "Digital documentation of artifacts"
+    },
+    "teamTitle": "Our Team",
+    "teamSubtitle": "A diverse group of professionals united by a shared passion for cultural preservation."
+  },
+  "massawa": {
+    "title": "Heritage of Massawa",
+    "subtitle": "Pearl of the Red Sea — A UNESCO World Heritage Tentative Site",
+    "location": "Location",
+    "locationValue": "Eritrea, Red Sea Coast",
+    "history": "History",
+    "historyValue": "Over 2,500 Years",
+    "architecture": "Architecture",
+    "architectureValue": "Ottoman, Italian, Egyptian",
+    "livingMuseum": "A Living Museum",
+    "introP1": "Massawa, located on the Red Sea coast of Eritrea, is one of Africa's most historically significant port cities. For over two millennia, it has served as a vital trading hub connecting Africa, Arabia, and beyond.",
+    "introP2": "The city's architecture reflects its rich multicultural heritage, featuring a unique blend of Ottoman, Egyptian, and Italian colonial styles built using locally quarried coral stone. The old town, spread across two islands connected by a causeway, contains some of the most remarkable historical structures in the Horn of Africa.",
+    "introP3": "Despite damage during the Eritrean War of Independence, significant preservation efforts are underway to restore and protect this architectural treasure for future generations.",
+    "landmarksTitle": "Notable Landmarks",
+    "landmarks": {
+      "oldTown": {
+        "title": "Old Town (Massawa Island)",
+        "period": "15th - 19th Century",
+        "description": "The historic heart of Massawa featuring coral-stone buildings with Ottoman and Egyptian influences. Narrow winding streets lead to ancient mosques and traditional houses."
+      },
+      "palace": {
+        "title": "Imperial Palace",
+        "period": "19th Century",
+        "description": "Once the winter residence of Ethiopian emperors, this grand structure showcases Italian colonial architecture blended with local design elements."
+      },
+      "mosque": {
+        "title": "Sheikh Hanafi Mosque",
+        "period": "16th Century",
+        "description": "One of the oldest mosques in Eritrea, featuring distinctive Ottoman architecture and beautiful coral stone carvings."
+      },
+      "market": {
+        "title": "The Covered Market",
+        "period": "Ottoman Era",
+        "description": "A traditional covered bazaar that has served as the commercial heart of Massawa for centuries, still bustling with activity today."
+      }
+    }
+  },
+  "activities": {
+    "title": "Our Activities",
+    "subtitle": "From documentation to education, explore the various initiatives we undertake to preserve and promote Massawa's cultural heritage.",
+    "documentation": {
+      "title": "Documentation Projects",
+      "status": "Ongoing",
+      "description": "Systematic photography and 3D scanning of historic buildings and artifacts to create comprehensive digital archives."
+    },
+    "workshops": {
+      "title": "Educational Workshops",
+      "status": "Monthly",
+      "description": "Regular workshops for students and community members about local history, traditional crafts, and preservation techniques."
+    },
+    "tours": {
+      "title": "Community Tours",
+      "status": "Weekly",
+      "description": "Guided heritage walks through the old town, led by local historians and trained community guides."
+    },
+    "restoration": {
+      "title": "Restoration Projects",
+      "status": "Ongoing",
+      "description": "Active restoration of key historical buildings using traditional materials and techniques."
+    },
+    "publications": {
+      "title": "Research Publications",
+      "status": "Quarterly",
+      "description": "Academic papers and public reports documenting our findings and preservation methodologies."
+    },
+    "partnerships": {
+      "title": "International Partnerships",
+      "status": "Active",
+      "description": "Collaborations with UNESCO, universities, and heritage organizations worldwide."
+    },
+    "milestonesTitle": "Recent Milestones",
+    "milestones": {
+      "2024": {
+        "title": "Digital Archive Launch",
+        "description": "Launching comprehensive online archive of Massawa's heritage"
+      },
+      "2023": {
+        "title": "Community Guide Training",
+        "description": "Trained 20+ local guides in heritage interpretation"
+      },
+      "2022": {
+        "title": "Sheikh Hanafi Mosque Survey",
+        "description": "Complete architectural survey and documentation"
+      },
+      "2021": {
+        "title": "Foundation Established",
+        "description": "Urban Heritage officially registered as non-profit"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Have questions about our work or want to get involved? We'd love to hear from you.",
+    "getInTouch": "Get in Touch",
+    "address": "Address",
+    "addressValue": "Old Town, Massawa Island\nMassawa, Eritrea",
+    "email": "Email",
+    "phone": "Phone",
+    "visitUs": "Visit Us",
+    "visitUsText": "Our office is open Monday to Friday, 9:00 AM to 5:00 PM. Visitors are welcome, but we recommend scheduling an appointment for research inquiries.",
+    "sendMessage": "Send a Message",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "emailLabel": "Email",
+    "subject": "Subject",
+    "subjectPlaceholder": "How can we help?",
+    "message": "Message",
+    "messagePlaceholder": "Tell us more about your inquiry...",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "successTitle": "Message Sent!",
+    "successMessage": "Thank you for reaching out. We'll get back to you soon."
+  },
+  "footer": {
+    "description": "Preserving and celebrating the rich architectural and cultural heritage of Massawa and beyond. Join us in protecting history for future generations.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Info",
+    "rights": "All rights reserved."
+  }
+}
