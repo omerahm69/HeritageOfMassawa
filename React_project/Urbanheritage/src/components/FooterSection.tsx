@@ -6,10 +6,10 @@ export const Footer = () => {
   const { t } = useLanguage();
 
   const quickLinks = [
-    { href: "/about", label: t("nav.about") },
-    { href: "/activities", label: t("nav.activities") },
-    { href: "/heritage", label: t("nav.heritage") },
-    { href: "/contact", label: t("nav.contact") },
+    { href: "/About", label: t("nav.about") },
+    { href: "/Our_Activities", label: t("nav.activities") },
+    { href: "/Urban_Heritage", label: t("nav.heritage") },
+    { href: "/Contact", label: t("nav.contact") },
   ];
 
   return (

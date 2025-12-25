@@ -1,4 +1,4 @@
-import { Footer } from "@/components/Footer";
+import { Footer } from "@/components/FooterSection";
 import { Navigation } from "@/components/Navigation";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Award, Heart, Target, Users } from "lucide-react";
