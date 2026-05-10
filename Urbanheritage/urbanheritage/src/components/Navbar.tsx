@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/button";
 import {
-    DropdownMenu,
-    DropdownMenuContent,
-    DropdownMenuItem,
-    DropdownMenuTrigger,
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Globe, Menu, X } from "lucide-react";
 import { useState } from "react";
@@ -22,12 +22,15 @@ export function Navbar() {
   const location = useLocation();
 
   const navLinks = [
-    { name: t("nav.home"), path: "/" },
-    { name: t("nav.about"), path: "/about" },
-    { name: t("nav.massawa"), path: "/massawa" },
-    { name: t("nav.activities"), path: "/activities" },
-    { name: t("nav.contact"), path: "/contact" },
-  ];
+  { name: t("nav.home"), path: "/" },
+  { name: t("nav.about"), path: "/about" },
+  {
+    name: t("Urban Heritage"),
+    path: "/Urban_Heritage_of_Massawa",
+  },
+  { name: t("nav.activities"), path: "/activities" },
+  { name: t("nav.contact"), path: "/contact" },
+];
 
   const changeLanguage = (code: string) => {
     i18n.changeLanguage(code);

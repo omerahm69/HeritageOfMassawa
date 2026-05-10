@@ -7,8 +7,8 @@ import About from "./pages/About";
 import Activities from "./pages/Activities";
 import Contact from "./pages/Contact";
 import Index from "./pages/Index";
-import Massawa from "./pages/Massawa";
 import NotFound from "./pages/NotFound";
+import UrbanHeritage from "./pages/Urban_Heritage";
 
 const queryClient = new QueryClient();
 
@@ -21,7 +21,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
-          <Route path="/massawa" element={<Massawa />} />
+          <Route path="/Urban_Heritage_of_Massawa" element={<UrbanHeritage />} />
           <Route path="/activities" element={<Activities />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />

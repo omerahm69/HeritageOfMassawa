@@ -1,9 +1,9 @@
-import heroImage from "@/assets/hero-massawa.jpg";
 import { Layout } from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Building2, Heart, Users } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import heroImage from "../assets/hero-massawa.webp";
 
 const Index = () => {
   const { t } = useTranslation();

@@ -1,4 +1,4 @@
-import heroImage from "@/assets/hero-massawa.jpg";
+import heroImage from "@/assets/hero-massawa.webp";
 import { Layout } from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Building2, Heart, Users } from "lucide-react";

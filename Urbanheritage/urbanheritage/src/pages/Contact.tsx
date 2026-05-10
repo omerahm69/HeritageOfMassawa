@@ -43,7 +43,6 @@ const Contact = () => {
           </div>
         </div>
       </section>
-
       {/* Contact Section */}
       <section className="py-20 md:py-28">
         <div className="container mx-auto px-4">
@@ -53,7 +52,6 @@ const Contact = () => {
               <h2 className="font-display text-2xl md:text-3xl font-bold mb-8">
                 Get in Touch
               </h2>
-
               <div className="space-y-6 mb-12">
                 <div className="flex items-start gap-4 p-4 rounded-xl bg-card heritage-shadow">
                   <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
@@ -68,7 +66,6 @@ const Contact = () => {
                     </p>
                   </div>
                 </div>
-
                 <div className="flex items-start gap-4 p-4 rounded-xl bg-card heritage-shadow">
                   <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <Mail className="h-6 w-6 text-primary" />
@@ -83,7 +80,6 @@ const Contact = () => {
                     </a>
                   </div>
                 </div>
-
                 <div className="flex items-start gap-4 p-4 rounded-xl bg-card heritage-shadow">
                   <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <Phone className="h-6 w-6 text-primary" />
@@ -106,7 +102,6 @@ const Contact = () => {
                 </p>
               </div>
             </div>
-
             {/* Contact Form */}
             <div className="animate-scale-in">
               <form
@@ -116,7 +111,6 @@ const Contact = () => {
                 <h3 className="font-display text-xl font-semibold mb-6">
                   Send a Message
                 </h3>
-
                 <div className="space-y-5">
                   <div className="grid sm:grid-cols-2 gap-4">
                     <div className="space-y-2">
@@ -138,7 +132,6 @@ const Contact = () => {
                       />
                     </div>
                   </div>
-
                   <div className="space-y-2">
                     <Label htmlFor="email">Email</Label>
                     <Input
@@ -149,7 +142,6 @@ const Contact = () => {
                       required
                     />
                   </div>
-
                   <div className="space-y-2">
                     <Label htmlFor="subject">Subject</Label>
                     <Input
@@ -159,7 +151,6 @@ const Contact = () => {
                       required
                     />
                   </div>
-
                   <div className="space-y-2">
                     <Label htmlFor="message">Message</Label>
                     <Textarea
@@ -170,7 +161,6 @@ const Contact = () => {
                       required
                     />
                   </div>
-
                   <Button
                     type="submit"
                     size="lg"

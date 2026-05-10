@@ -2,12 +2,12 @@
   "nav": {
     "home": "Home",
     "about": "About Us",
-    "massawa": "Heritage of Massawa",
+    "urban Heritage": "Urban_Heritage of Massawa",
     "activities": "Our Activities",
     "contact": "Contact"
   },
   "hero": {
-    "title": "Preserving Our",
+    "title": "Preserving Massawa's Rich Heritage",
     "titleHighlight": "Urban Heritage",
     "subtitle": "Discover the rich architectural and cultural legacy of Massawa, an ancient port city with centuries of history waiting to be explored.",
     "exploreMassawa": "Explore Massawa",
@@ -53,7 +53,7 @@
     "teamTitle": "Our Team",
     "teamSubtitle": "A diverse group of professionals united by a shared passion for cultural preservation."
   },
-  "massawa": {
+  "Urban_Heritage_of_Massawa": {
     "title": "Heritage of Massawa",
     "subtitle": "Pearl of the Red Sea — A UNESCO World Heritage Tentative Site",
     "location": "Location",
